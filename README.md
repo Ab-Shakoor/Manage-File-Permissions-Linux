@@ -32,17 +32,21 @@ The second block of text in the expanded directory listing is the user who owns 
 
 
 <h2>Change file permissions</h2>
-
+<p align="center">
+<img src="https://i.imgur.com/UbvHhi7.png" height="100%" width="80%" alt="Manage File Permissions in Linux"/>
 <b> </b>
-
+<p align="center">
+<img src="https://i.imgur.com/KEXHYFj.png" height="100%" width="80%" alt="Manage File Permissions in Linux"/>
 
 <h2>Change file permissions on a hidden file</h2>
-
+<p align="center">
+<img src="https://i.imgur.com/6793lwm.png" height="100%" width="80%" alt="Manage File Permissions in Linux"/>
 <b> </b>
 
 
 <h2>Change directory permissions</h2>
-
+<p align="center">
+<img src="https://i.imgur.com/MQTsfaU.png" height="100%" width="80%" alt="Manage File Permissions in Linux"/>
 <b> </b>
 
 
