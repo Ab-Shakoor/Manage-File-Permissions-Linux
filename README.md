@@ -33,7 +33,7 @@ The second block of text in the expanded directory listing is the user who owns 
 
 <h2>Change file permissions</h2>
 
-The organization determined that the other users should not have write permissions. The following screenshot shows how I used the **(chmod)** command to change the write permissions for the other in the **(project_k.txt)** file. Then, I used the **(ls -la)** command to review the updates I made:
+The organization determined that the owner type of other should not have write permissions. The following screenshot shows how I used the **(chmod)** command to change the write permissions for the other in the **(project_k.txt)** file. Then, I used the **(ls -la)** command to review the updates I made:
 
 <p align="center">
 <img src="https://i.imgur.com/UbvHhi7.png" height="100%" width="80%" alt="Manage File Permissions in Linux"/>
