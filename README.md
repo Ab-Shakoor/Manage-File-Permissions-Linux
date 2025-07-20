@@ -32,9 +32,16 @@ The second block of text in the expanded directory listing is the user who owns 
 
 
 <h2>Change file permissions</h2>
+
+The organization determined that the other users should not have write permissions. The following screenshot shows how I used the (chmod) command to change the write permissions for the other in the project_k.txt file. Then, I used the (ls -la) command to review the updates I made:
+
 <p align="center">
 <img src="https://i.imgur.com/UbvHhi7.png" height="100%" width="80%" alt="Manage File Permissions in Linux"/>
-<b> </b>
+
+<br />
+
+The organization also determined that the (project_m.txt) file is a restricted file and should not be readable or writable by the group or other. The following screenshot shows how I used the (chmod) command to change the read permissions for the group in the (project_m.txt) file. Then, I used the (ls -la) command to review the updates I made:
+
 <p align="center">
 <img src="https://i.imgur.com/KEXHYFj.png" height="100%" width="80%" alt="Manage File Permissions in Linux"/>
 
