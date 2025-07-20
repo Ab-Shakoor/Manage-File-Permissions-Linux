@@ -33,14 +33,14 @@ The second block of text in the expanded directory listing is the user who owns 
 
 <h2>Change file permissions</h2>
 
-The organization determined that the other users should not have write permissions. The following screenshot shows how I used the (chmod) command to change the write permissions for the other in the project_k.txt file. Then, I used the (ls -la) command to review the updates I made:
+The organization determined that the other users should not have write permissions. The following screenshot shows how I used the **(chmod)** command to change the write permissions for the other in the **(project_k.txt)** file. Then, I used the **(ls -la)** command to review the updates I made:
 
 <p align="center">
 <img src="https://i.imgur.com/UbvHhi7.png" height="100%" width="80%" alt="Manage File Permissions in Linux"/>
 
 <br />
 
-The organization also determined that the (project_m.txt) file is a restricted file and should not be readable or writable by the group or other. The following screenshot shows how I used the (chmod) command to change the read permissions for the group in the (project_m.txt) file. Then, I used the (ls -la) command to review the updates I made:
+The organization also determined that the **(project_m.txt)** file is a restricted file and should not be readable or writable by the group or other. The following screenshot shows how I used the **(chmod)** command to change the read permissions for the group in the **(project_m.txt)** file. Then, I used the **(ls -la)** command to review the updates I made:
 
 <p align="center">
 <img src="https://i.imgur.com/KEXHYFj.png" height="100%" width="80%" alt="Manage File Permissions in Linux"/>
@@ -49,7 +49,7 @@ The organization also determined that the (project_m.txt) file is a restricted f
 
 <h2>Change file permissions on a hidden file</h2>
 
-The file (.project_x.txt) is a hidden file that has been archived and should not be written to by anyone, but the user and group should still be able to read this file. The following screenshot shows how I used the (chmod) command to remove writing priviliges from the user and group, and allow reading priviliges to the group. This ensures both the user and the group can read, but not write to, the file. I reviewed the updates I made using the (ls -la) command.
+The file **(.project_x.txt)** is a hidden file that has been archived and should not be written to by anyone, but the user and group should still be able to read this file. The following screenshot shows how I used the **(chmod)** command to remove writing priviliges for the user and group from the **(.project_x.txt)** file, while also allowing reading priviliges for the group. This ensures both the user and the group can read, but not write to, the file. I then reviewed the updates I made using the **(ls -la)** command.
 
 <p align="center">
 <img src="https://i.imgur.com/6793lwm.png" height="100%" width="80%" alt="Manage File Permissions in Linux"/>
@@ -59,7 +59,7 @@ The file (.project_x.txt) is a hidden file that has been archived and should not
 
 <h2>Change directory permissions</h2>
 
-The organization determined that only the (researcher2) user should be allowed to access the (drafts) directory and its contents, which means only (researcher2) should have execute privileges. The following screenshot shows how I used the (chmod) command to remove execute priviliges for the group from the (drafts) directory. Then, I used the (ls -la) command to review the updates I made. 
+The organization determined that only the **(researcher2)** user should be allowed to access the **(drafts)** directory and its contents, which means only **(researcher2)** should have execute privileges. The following screenshot shows how I used the **(chmod)** command to remove execute priviliges for the group from the **(drafts)** directory. Then, I used the **(ls -la)** command to review the updates I made. 
 
 <p align="center">
 <img src="https://i.imgur.com/MQTsfaU.png" height="100%" width="80%" alt="Manage File Permissions in Linux"/>
