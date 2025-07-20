@@ -67,8 +67,8 @@ The organization determined that only the **(researcher2)** user should be allow
 
 
 <h2>Summary</h2>
+I changed multiple permissions to match the level of authorization my organization wanted for files and directories in the (projects) directory. I checked permissions for the directory using (ls -la), then I used the (chmod) command multiple times to accurately change permissions according to the needs of my organization, and after each time, I reviewed the changes done using (ls -la) to confirm the changes made. 
 
-<b> </b>
 
 <!--
  ```diff
